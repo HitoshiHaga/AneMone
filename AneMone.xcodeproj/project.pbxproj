@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		199301A51948669900072B6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199301A41948669900072B6D /* Foundation.framework */; };
+		199301A71948669900072B6D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199301A61948669900072B6D /* CoreGraphics.framework */; };
+		199301A91948669900072B6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199301A81948669900072B6D /* UIKit.framework */; };
+		199301AF1948669900072B6D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 199301AD1948669900072B6D /* InfoPlist.strings */; };
+		199301B11948669900072B6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 199301B01948669900072B6D /* main.m */; };
+		199301B51948669900072B6D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 199301B41948669900072B6D /* AppDelegate.m */; };
+		199301B81948669900072B6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 199301B61948669900072B6D /* Main.storyboard */; };
+		199301BB1948669900072B6D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 199301BA1948669900072B6D /* ViewController.m */; };
+		199301BD1948669900072B6D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 199301BC1948669900072B6D /* Images.xcassets */; };
+		199301C41948669900072B6D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199301C31948669900072B6D /* XCTest.framework */; };
+		199301C51948669900072B6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199301A41948669900072B6D /* Foundation.framework */; };
+		199301C61948669900072B6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199301A81948669900072B6D /* UIKit.framework */; };
+		199301CE1948669900072B6D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 199301CC1948669900072B6D /* InfoPlist.strings */; };
+		199301D01948669900072B6D /* AneMoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 199301CF1948669900072B6D /* AneMoneTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		199301C71948669900072B6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 199301991948669900072B6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 199301A01948669900072B6D;
+			remoteInfo = AneMone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		199301A11948669900072B6D /* AneMone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AneMone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		199301A41948669900072B6D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		199301A61948669900072B6D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		199301A81948669900072B6D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		199301AC1948669900072B6D /* AneMone-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AneMone-Info.plist"; sourceTree = "<group>"; };
+		199301AE1948669900072B6D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		199301B01948669900072B6D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		199301B21948669900072B6D /* AneMone-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AneMone-Prefix.pch"; sourceTree = "<group>"; };
+		199301B31948669900072B6D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		199301B41948669900072B6D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		199301B71948669900072B6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		199301B91948669900072B6D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		199301BA1948669900072B6D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		199301BC1948669900072B6D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		199301C21948669900072B6D /* AneMoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AneMoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		199301C31948669900072B6D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		199301CB1948669900072B6D /* AneMoneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AneMoneTests-Info.plist"; sourceTree = "<group>"; };
+		199301CD1948669900072B6D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		199301CF1948669900072B6D /* AneMoneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AneMoneTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1993019E1948669900072B6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				199301A71948669900072B6D /* CoreGraphics.framework in Frameworks */,
+				199301A91948669900072B6D /* UIKit.framework in Frameworks */,
+				199301A51948669900072B6D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		199301BF1948669900072B6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				199301C41948669900072B6D /* XCTest.framework in Frameworks */,
+				199301C61948669900072B6D /* UIKit.framework in Frameworks */,
+				199301C51948669900072B6D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		199301981948669900072B6D = {
+			isa = PBXGroup;
+			children = (
+				199301AA1948669900072B6D /* AneMone */,
+				199301C91948669900072B6D /* AneMoneTests */,
+				199301A31948669900072B6D /* Frameworks */,
+				199301A21948669900072B6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		199301A21948669900072B6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				199301A11948669900072B6D /* AneMone.app */,
+				199301C21948669900072B6D /* AneMoneTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		199301A31948669900072B6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				199301A41948669900072B6D /* Foundation.framework */,
+				199301A61948669900072B6D /* CoreGraphics.framework */,
+				199301A81948669900072B6D /* UIKit.framework */,
+				199301C31948669900072B6D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		199301AA1948669900072B6D /* AneMone */ = {
+			isa = PBXGroup;
+			children = (
+				199301B31948669900072B6D /* AppDelegate.h */,
+				199301B41948669900072B6D /* AppDelegate.m */,
+				199301B61948669900072B6D /* Main.storyboard */,
+				199301B91948669900072B6D /* ViewController.h */,
+				199301BA1948669900072B6D /* ViewController.m */,
+				199301BC1948669900072B6D /* Images.xcassets */,
+				199301AB1948669900072B6D /* Supporting Files */,
+			);
+			path = AneMone;
+			sourceTree = "<group>";
+		};
+		199301AB1948669900072B6D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				199301AC1948669900072B6D /* AneMone-Info.plist */,
+				199301AD1948669900072B6D /* InfoPlist.strings */,
+				199301B01948669900072B6D /* main.m */,
+				199301B21948669900072B6D /* AneMone-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		199301C91948669900072B6D /* AneMoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				199301CF1948669900072B6D /* AneMoneTests.m */,
+				199301CA1948669900072B6D /* Supporting Files */,
+			);
+			path = AneMoneTests;
+			sourceTree = "<group>";
+		};
+		199301CA1948669900072B6D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				199301CB1948669900072B6D /* AneMoneTests-Info.plist */,
+				199301CC1948669900072B6D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		199301A01948669900072B6D /* AneMone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 199301D31948669900072B6D /* Build configuration list for PBXNativeTarget "AneMone" */;
+			buildPhases = (
+				1993019D1948669900072B6D /* Sources */,
+				1993019E1948669900072B6D /* Frameworks */,
+				1993019F1948669900072B6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AneMone;
+			productName = AneMone;
+			productReference = 199301A11948669900072B6D /* AneMone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		199301C11948669900072B6D /* AneMoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 199301D61948669900072B6D /* Build configuration list for PBXNativeTarget "AneMoneTests" */;
+			buildPhases = (
+				199301BE1948669900072B6D /* Sources */,
+				199301BF1948669900072B6D /* Frameworks */,
+				199301C01948669900072B6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				199301C81948669900072B6D /* PBXTargetDependency */,
+			);
+			name = AneMoneTests;
+			productName = AneMoneTests;
+			productReference = 199301C21948669900072B6D /* AneMoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		199301991948669900072B6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "GClue, inc.";
+				TargetAttributes = {
+					199301C11948669900072B6D = {
+						TestTargetID = 199301A01948669900072B6D;
+					};
+				};
+			};
+			buildConfigurationList = 1993019C1948669900072B6D /* Build configuration list for PBXProject "AneMone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 199301981948669900072B6D;
+			productRefGroup = 199301A21948669900072B6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				199301A01948669900072B6D /* AneMone */,
+				199301C11948669900072B6D /* AneMoneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1993019F1948669900072B6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				199301BD1948669900072B6D /* Images.xcassets in Resources */,
+				199301AF1948669900072B6D /* InfoPlist.strings in Resources */,
+				199301B81948669900072B6D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		199301C01948669900072B6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				199301CE1948669900072B6D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1993019D1948669900072B6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				199301BB1948669900072B6D /* ViewController.m in Sources */,
+				199301B51948669900072B6D /* AppDelegate.m in Sources */,
+				199301B11948669900072B6D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		199301BE1948669900072B6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				199301D01948669900072B6D /* AneMoneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		199301C81948669900072B6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 199301A01948669900072B6D /* AneMone */;
+			targetProxy = 199301C71948669900072B6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		199301AD1948669900072B6D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				199301AE1948669900072B6D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		199301B61948669900072B6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				199301B71948669900072B6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		199301CC1948669900072B6D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				199301CD1948669900072B6D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		199301D11948669900072B6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		199301D21948669900072B6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		199301D41948669900072B6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AneMone/AneMone-Prefix.pch";
+				INFOPLIST_FILE = "AneMone/AneMone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		199301D51948669900072B6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AneMone/AneMone-Prefix.pch";
+				INFOPLIST_FILE = "AneMone/AneMone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		199301D71948669900072B6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AneMone.app/AneMone";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AneMone/AneMone-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AneMoneTests/AneMoneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		199301D81948669900072B6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AneMone.app/AneMone";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AneMone/AneMone-Prefix.pch";
+				INFOPLIST_FILE = "AneMoneTests/AneMoneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1993019C1948669900072B6D /* Build configuration list for PBXProject "AneMone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199301D11948669900072B6D /* Debug */,
+				199301D21948669900072B6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		199301D31948669900072B6D /* Build configuration list for PBXNativeTarget "AneMone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199301D41948669900072B6D /* Debug */,
+				199301D51948669900072B6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		199301D61948669900072B6D /* Build configuration list for PBXNativeTarget "AneMoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199301D71948669900072B6D /* Debug */,
+				199301D81948669900072B6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 199301991948669900072B6D /* Project object */;
+}
