@@ -389,6 +389,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: GClue (7D7Z93T4FG)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AneMone/AneMone-Prefix.pch";
 				INFOPLIST_FILE = "AneMone/AneMone-Info.plist";
@@ -456,6 +457,7 @@
 				199301D51948669900072B6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		199301D61948669900072B6D /* Build configuration list for PBXNativeTarget "AneMoneTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +466,7 @@
 				199301D81948669900072B6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
