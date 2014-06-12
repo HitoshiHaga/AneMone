@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:AneMoneSubProject/AneMoneSubProject.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "container:AneMone.xcodeproj">
    </FileRef>
 </Workspace>
