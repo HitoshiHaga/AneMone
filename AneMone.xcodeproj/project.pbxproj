@@ -21,6 +21,8 @@
 		199301C61948669900072B6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199301A81948669900072B6D /* UIKit.framework */; };
 		199301CE1948669900072B6D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 199301CC1948669900072B6D /* InfoPlist.strings */; };
 		199301D01948669900072B6D /* AneMoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 199301CF1948669900072B6D /* AneMoneTests.m */; };
+		19EBFC67195A6AE400601AF8 /* AneMoneUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 19EBFC66195A6AE400601AF8 /* AneMoneUtil.m */; };
+		19EBFC69195A90D200601AF8 /* AneMoneUtilTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 19EBFC68195A90D200601AF8 /* AneMoneUtilTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		199301CB1948669900072B6D /* AneMoneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AneMoneTests-Info.plist"; sourceTree = "<group>"; };
 		199301CD1948669900072B6D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		199301CF1948669900072B6D /* AneMoneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AneMoneTests.m; sourceTree = "<group>"; };
+		19EBFC65195A6AE400601AF8 /* AneMoneUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AneMoneUtil.h; sourceTree = "<group>"; };
+		19EBFC66195A6AE400601AF8 /* AneMoneUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AneMoneUtil.m; sourceTree = "<group>"; };
+		19EBFC68195A90D200601AF8 /* AneMoneUtilTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AneMoneUtilTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +124,8 @@
 				199301BA1948669900072B6D /* ViewController.m */,
 				199301BC1948669900072B6D /* Images.xcassets */,
 				199301AB1948669900072B6D /* Supporting Files */,
+				19EBFC65195A6AE400601AF8 /* AneMoneUtil.h */,
+				19EBFC66195A6AE400601AF8 /* AneMoneUtil.m */,
 			);
 			path = AneMone;
 			sourceTree = "<group>";
@@ -139,6 +146,7 @@
 			children = (
 				199301CF1948669900072B6D /* AneMoneTests.m */,
 				199301CA1948669900072B6D /* Supporting Files */,
+				19EBFC68195A90D200601AF8 /* AneMoneUtilTest.m */,
 			);
 			path = AneMoneTests;
 			sourceTree = "<group>";
@@ -250,6 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				199301BB1948669900072B6D /* ViewController.m in Sources */,
+				19EBFC67195A6AE400601AF8 /* AneMoneUtil.m in Sources */,
 				199301B51948669900072B6D /* AppDelegate.m in Sources */,
 				199301B11948669900072B6D /* main.m in Sources */,
 			);
@@ -260,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				199301D01948669900072B6D /* AneMoneTests.m in Sources */,
+				19EBFC69195A90D200601AF8 /* AneMoneUtilTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
