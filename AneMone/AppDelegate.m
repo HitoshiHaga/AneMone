@@ -10,23 +10,6 @@
 
 @implementation AppDelegate
 
-#ifdef DEBUG
-+ (void)initialize {
-    [[NSUserDefaults standardUserDefaults] setValue:@"XCTestLog,GcovTestObserver"
-                                             forKey:@"XCTestObserverClass"];
-}
-#endif
-
-//途中省略
-
-- (void)applicationWillTerminate:(UIApplication *)application
-{
-#ifdef DEBUG
-    extern void __gcov_flush(void);
-    __gcov_flush();
-#endif
-}
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
