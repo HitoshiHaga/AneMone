@@ -10,6 +10,23 @@
 
 @implementation AppDelegate
 
+#ifdef DEBUG
++ (void)initialize {
+    [[NSUserDefaults standardUserDefaults] setValue:@"XCTestLog,GcovTestObserver"
+                                             forKey:@"XCTestObserverClass"];
+}
+#endif
+
+//途中省略
+
+- (void)applicationWillTerminate:(UIApplication *)application
+{
+#ifdef DEBUG
+    extern void __gcov_flush(void);
+    __gcov_flush();
+#endif
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
@@ -38,9 +55,6 @@
     // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
 }
 
-- (void)applicationWillTerminate:(UIApplication *)application
-{
-    // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
-}
+
 
 @end
