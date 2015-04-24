@@ -206,11 +206,6 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "GClue, inc.";
-				TargetAttributes = {
-					199301C11948669900072B6D = {
-						TestTargetID = 199301A01948669900072B6D;
-					};
-				};
 			};
 			buildConfigurationList = 1993019C1948669900072B6D /* Build configuration list for PBXProject "AneMone" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -415,7 +410,6 @@
 		199301D71948669900072B6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AneMone.app/AneMone";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -430,7 +424,6 @@
 				);
 				INFOPLIST_FILE = "AneMoneTests/AneMoneTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -438,7 +431,6 @@
 		199301D81948669900072B6D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AneMone.app/AneMone";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -449,7 +441,6 @@
 				GCC_PREFIX_HEADER = "AneMone/AneMone-Prefix.pch";
 				INFOPLIST_FILE = "AneMoneTests/AneMoneTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
