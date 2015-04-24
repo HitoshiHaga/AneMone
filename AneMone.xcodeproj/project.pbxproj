@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		190977691AE9E8B70017E656 /* AneMoneUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 19EBFC66195A6AE400601AF8 /* AneMoneUtil.m */; };
 		199301A51948669900072B6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199301A41948669900072B6D /* Foundation.framework */; };
 		199301A71948669900072B6D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199301A61948669900072B6D /* CoreGraphics.framework */; };
 		199301A91948669900072B6D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 199301A81948669900072B6D /* UIKit.framework */; };
@@ -263,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				190977691AE9E8B70017E656 /* AneMoneUtil.m in Sources */,
 				199301D01948669900072B6D /* AneMoneTests.m in Sources */,
 				19EBFC69195A90D200601AF8 /* AneMoneUtilTest.m in Sources */,
 			);
