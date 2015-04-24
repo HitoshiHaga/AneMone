@@ -423,6 +423,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "AneMoneTests/AneMoneTests-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -440,6 +441,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AneMone/AneMone-Prefix.pch";
 				INFOPLIST_FILE = "AneMoneTests/AneMoneTests-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xctest;
 			};
