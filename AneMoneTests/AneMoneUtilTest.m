@@ -36,7 +36,7 @@
 #pragma mark - Tests
 
 -(void)testAnemoneMethod1 {
-    NSString* ret = [AneMoneUtil anemoneMethod1:kAneMoneStringSuccess];
+    NSString* ret = [AneMoneUtil anemoneMethod1:kAneMoneStringFailed];
     
     if(![ret isEqualToString:kAneMoneStringSuccess]) {
         XCTFail(@"anemoneMethod1 failed");
